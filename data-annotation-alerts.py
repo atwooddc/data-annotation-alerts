@@ -43,7 +43,7 @@ def check_for_new_projects():
     driver.get("https://app.dataannotation.tech/workers/projects")
     
     projects_header = WebDriverWait(driver, 5).until(
-        EC.visibility_of_element_located((By.XPATH, "//h3[contains(text(), 'Projects')]"))
+        EC.visibility_of_element_located((By.XPATH, "//h3[contains(text(), 'Qualifications')]"))
     )
     projects_section = projects_header.find_element(By.XPATH, "following::div[contains(@class, 'tw-bg-white')]")
 
