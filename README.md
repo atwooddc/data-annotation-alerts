@@ -1,6 +1,6 @@
 # data-annotation-alerts
 
-set up this script with mac crontab to get automated alerts on new DataAnnotation projects. developed with ChatGPT 4.0.
+set up this script with mac crontab to get automated alerts on new DataAnnotation projects. developed with ChatGPT 4.
 
 ## steps
 
